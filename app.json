@@ -1,0 +1,36 @@
+{
+  "pages": [   
+    "pages/college/college",
+    "pages/index/index", 
+    "pages/list/list",   
+    "pages/diagram/diagram",   
+    
+    "pages/detail/detail"  
+   
+    
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#8ED145",
+    "navigationBarTitleText": "顾名思义",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "信息",
+        "iconPath": "/images/tab/yuedu.png",
+        "selectedIconPath": "/images/tab/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/college/college",
+        "text": "信息",
+        "iconPath": "/images/tab/college .png",
+        "selectedIconPath": "/images/tab/college_1.png"
+      }
+      
+    ]
+  },
+  "sitemapLocation": "sitemap54.json"
+}

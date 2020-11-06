@@ -1,0 +1,21 @@
+/* pages/list/list.wxss */
+
+
+.listContainer{
+  display: flex;
+	flex-direction: column;
+  padding: 88rpx;
+}
+.head{
+  font-size: 24px;
+  color: #323232;
+  letter-spacing: 0;
+  text-align: left;
+  margin-bottom: 22px;
+}
+.picker{
+  padding: 13px;
+  font-size: 38rpx;
+  color: gray;
+}
+

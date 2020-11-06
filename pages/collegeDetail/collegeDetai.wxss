@@ -1,0 +1,32 @@
+/* pages/collegeDetail/collegeDetai.wxss */
+.collegeDetailContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collegeDetailImg{
+  width: 100%;
+  height: 700rpx;
+  
+}
+.collegeDetailName{
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.collegeDetail{
+  display: flex;
+  flex-direction: column;
+  margin-left: -425rpx;
+  font-size: 32rpx;
+}
+
+.collegeDetailProfession{
+  padding-top: 20rpx;
+  align-items: center;
+  width: 70%;  
+  margin-left:-45rpx;
+  
+}
+.collegeDetailProfession text{
+  text-indent: 64rpx;
+}

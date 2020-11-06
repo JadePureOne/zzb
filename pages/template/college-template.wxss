@@ -1,0 +1,37 @@
+/* pages/template/college-template.wxss */
+.collegeContainer{
+  display: flex;
+  padding:20rpx;
+}
+.collegeImg{
+  width: 128rpx;
+  height: 128rpx;
+  
+}
+.collegeDetail{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 20rpx;
+}
+.collegeName{
+  font-size: 32rpx;
+  color: #000;
+  
+}
+.collegeCity{
+  font-size: 28rpx;
+  color: #666;
+  margin:8rpx 0;
+}
+.collegeStyle{
+  font-size: 30rpx;
+  color: #000;
+}
+.collegeScore{
+  font-size: 40rpx;
+  color: red;
+  font-weight: bold;
+}
+
+

@@ -1,0 +1,2 @@
+/* pages/college/college.wxss */
+@import '/pages/template/college-template.wxss'; 

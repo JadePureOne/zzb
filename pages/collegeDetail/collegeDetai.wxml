@@ -1,0 +1,25 @@
+<!--pages/collegeDetail/collegeDetai.wxml-->
+<!--院校介绍-->
+<view class="collegeDetailContainer">
+  <image class="collegeDetailImg" src="{{collegeDetail.show}}" mode="heightFix"></image>
+  <text class="collegeDetailName">{{collegeDetail.name}}</text>
+  <view class="collegeDetail">
+    <text class="collegeDetailScore">评分:</text>
+    <text class="collegeDetailCity">城市:{{collegeDetail.city}}</text>
+    <text class="collegeDetailType">类型:{{collegeDetail.type}}</text>    
+  </view>
+  <view class="collegeDetailProfession">
+    <text  user-select >{{collegeDetail.detail_content}}</text>
+    <text  user-select >{{collegeDetail.detail_content1}}</text>
+    <text  user-select >{{collegeDetail.detail_content2}}</text>
+    <text  user-select >{{collegeDetail.detail_content3}}</text>
+    <text  user-select >{{collegeDetail.detail_content4}}</text>
+    <text  user-select >{{collegeDetail.detail_content5}}</text>
+    <text  user-select >{{collegeDetail.detail_content6}}</text>
+    <text  user-select >{{collegeDetail.detail_content7}}</text>
+    <text  user-select >{{collegeDetail.detail_content8}}</text>
+    <text  user-select >{{collegeDetail.detail_content9}}</text>
+    <text  user-select >{{collegeDetail.detail_content10}}</text>
+  </view>
+
+</view>

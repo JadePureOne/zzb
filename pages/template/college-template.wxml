@@ -1,0 +1,13 @@
+<!--pages/template/college-template.wxml-->
+
+<template name="collegeTmp">
+  <view class="collegeContainer">
+    <image class="collegeImg" src="{{flag}}"></image>
+    <view class="collegeDetail">
+      <!-- <text class="collegeName">{{name}}</text> -->
+      <text class="collegeCity">办学地点：{{city}}</text>
+      <text class="collegeStyle">类型：{{type}}</text>
+    </view>
+   
+  </view> 
+</template>

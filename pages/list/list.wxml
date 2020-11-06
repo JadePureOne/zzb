@@ -1,0 +1,40 @@
+ <!--pages/list/list.wxml-->
+  <!--首页-->
+
+<view class="listContainer">
+  <text class="head">报考查询</text>
+  <view class="query">
+    <view  class="pickerContainer">
+        <text>选择省份</text>
+          <picker  bindchange="bindProvinceChange" value="{{provinceChange}}" range="{{province}}" >
+            <view class="picker">
+              当前选择：{{province[provinceChange]}}
+            </view>
+          </picker>
+    </view>
+     <view class="pickerContainer">
+        <text>专业名称</text>
+        <picker mode="selector" bindchange="getPickerIndex" value="{{index}}" range="{{listArr}}" range-key='profession'>
+            <view class="picker">
+              当前选择：{{provinceShow1}}
+            </view>
+           
+        </picker>        
+    </view >
+     <view class="pickerContainer">
+        <text>选择报考别类</text>
+          <picker bindchange="bindClassChange" value="{{ClassChange}}" range="{{class}}" >
+            <view class="picker">
+              当前选择：{{class[ClassChange]}}
+            </view>
+          </picker>
+    </view>
+  <button bindtap="handleProfession">
+    查询详情
+  </button>
+   <button bindtap="handleProfessionDiagram">
+    查询曲线图
+  </button>
+  </view>
+  
+</view>

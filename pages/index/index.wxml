@@ -1,0 +1,13 @@
+<!--pages/index/index.wxml-->
+<!--欢迎界面-->
+<view class="indexContainer"> 
+  <button bindgetuserinfo="handleGetUserInfo" style='display:{{isShow?"block":"none"}}' class="getUserInfoButton" open-type="getUserInfo">更新</button>
+   <image class="avatar" src="{{userInfo.avatarUrl}}"> </image>
+  <text class="userName">hello{{userInfo.nickName}}</text>
+  <view bindtap='handleClick' class="goStudy">
+    <text >开启我的专转本之旅</text>    
+  </view>
+  <view>
+    <text style="font-size:30rpx">倒计时：{{time}}天</text>
+  </view>
+</view>

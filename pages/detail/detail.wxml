@@ -1,0 +1,129 @@
+<!--pages/detail/detail.wxml-->
+
+<view>  
+  <view class="container">
+    <view class="header">      
+      <text>专业:{{detailArr.profession}}</text>
+    </view>    
+    
+    <view class="box" wx-if='{{detailArr.college_score}}'>      
+      <view class="title">
+        <text class="number">1</text>
+        <text >{{detailArr.college}}</text>        
+      </view>
+      <view class="body">
+        <view style="">
+          <text class="dian"></text>
+          <text style="margin-right: 30px;">{{detailArr.college_score}}</text> 
+          <text>{{detailArr.college_money}}</text>     
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.object}}</text>
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.college_score}}</text>
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.require}}</text>
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.remark}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="box" wx-if='{{detailArr.college_score2}}'>      
+      <view class="title">
+        <text class="number">2</text>
+        <text >{{detailArr.college2}}</text>        
+      </view>
+      <view class="body">
+        <view style="">
+          <text class="dian"></text>
+          <text style="margin-right: 30px;">{{detailArr.college_score2}}</text> 
+          <text>{{detailArr.college_money2}}</text>     
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.object}}</text>
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.college_score2}}</text>
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.require}}</text>
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.remark}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="box" wx-if="{{detailArr.college_score3}}">      
+      <view class="title">
+        <text class="number">3</text>
+        <text >{{detailArr.college3}}</text>        
+      </view>
+      <view class="body">
+        <view style="">
+          <text class="dian"></text>
+          <text style="margin-right: 30px;">{{detailArr.college_score3}}</text> 
+          <text>{{detailArr.college_money3}}</text>     
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.object}}</text>
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.college_score3}}</text>
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.require}}</text>
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.remark}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="box" wx-if="{{detailArr.college_score4}}">      
+      <view class="title">
+        <text class="number">4</text>
+        <text >{{detailArr.college4}}</text>        
+      </view>
+      <view class="body">
+        <view style="">
+          <text class="dian"></text>
+          <text style="margin-right: 30px;">{{detailArr.college_score4}}</text> 
+          <text>{{detailArr.college_money4}}</text>     
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.object}}</text>
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.college_score4}}</text>
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.require}}</text>
+        </view>
+        <view style="margin-top:15rpx;">
+          <text class="dian"></text>
+          <text>{{detailArr.remark}}</text>
+        </view>
+      </view>
+    </view>
+   
+  </view>
+</view>

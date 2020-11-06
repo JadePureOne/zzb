@@ -1,0 +1,4 @@
+<!--pages/diagram/diagram.wxml-->
+<view class="container">
+    <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+ </view>

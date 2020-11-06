@@ -1,0 +1,11 @@
+<!--pages/college/college.wxml-->
+<import src="/pages/template/college-template.wxml"/>
+
+
+<navigator url="/pages/collegeDetail/collegeDetai?index={{index}}" wx:for='{{collegeArr}}' wx:key='index'>  
+  <view>
+    <!--使用 is 属性，声明需要的使用的模板，然后data将模板所需要的 data 传入-->
+    <template is="collegeTmp" data="{{...item}}"/>
+  </view>
+</navigator>
+

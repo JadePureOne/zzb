@@ -1,0 +1,11 @@
+/* pages/diagram/diagram.wxss */
+.container{
+  display: inline-block;
+  height: 800rpx;
+  width: 100%;
+}
+
+.container > canvas{
+  height: 100%;
+  width: 100%;  
+}
